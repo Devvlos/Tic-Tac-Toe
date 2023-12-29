@@ -100,8 +100,8 @@ shareBtn.addEventListener('click', event => {
   if (navigator.share) {
     // Browser supports native share api
     navigator.share({
-      text: 'Please read this great article: ',
-      url: 'https://www.google.com/',
+      text: 'Play Tic-Tac-Toe Here Online',
+      url: 'https://devvlos.github.io/Tic-Tac-Toe/',
     }).then(() => {
       console.log('Thanks for sharing!');
     })
