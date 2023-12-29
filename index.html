@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Learning</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="shareBtn">Share <i class="fa fa-share-alt"></i></button>
+    <h1 class="heading">TIC TAC TOE</h1>
+    <h1 id="Result">Congratulations Player 1 Won</h1>
+     <div class="container">
+        <div class="game">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div>
+        <div class="Info">
+            <h1 id="Playerinfo1"></h1>
+            <h1 id="Playerinfo2"></h1>
+        </div>
+        <div id="InputPlayer">
+            <input type="text" id="Player1" placeholder='Enter Name Of Player1'>
+            <input type="text" id="Player2" placeholder='Enter Name Of Player2'>
+            <br>
+            <button id="playersInfo" onclick="playerName()">Start</button>
+        </div>
+     </div>
+     <button id="reset">Reset Game</button>
+</body>
+<script src="main.js"></script> 
+</html>
